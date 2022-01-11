@@ -55,7 +55,8 @@ app.post('/snail', (req, res) => {
     var slip = Number(req.query.d);
     var fatigue_factor = Number(req.query.f);
     var day = 0;
-    var status =null;
+    var status = null;
+    var height_after_climbing = 0;
 
     while(status==null){
 
